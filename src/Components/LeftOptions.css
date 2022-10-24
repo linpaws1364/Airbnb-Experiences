@@ -1,0 +1,47 @@
+.leftoptions{
+    flex: 0 0 auto;        
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+    top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    z-index: 100;
+}
+
+.leftoptionCards:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.leftoptionCards{
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    text-align: center;
+    padding: 5px 10px;
+    color: rgb(63, 58, 58);
+    background-color: white;
+    border: 1px solid rgb(192, 191, 191);
+}
+
+.leftoptions-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    overflow-x: auto;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.leftoptions-list::-webkit-scrollbar {
+display: none;
+}
+
+@media screen and (max-width: 480px){
+    .leftoptions-list{
+        margin-left: 20px;
+        position: relative;
+    }    
+}

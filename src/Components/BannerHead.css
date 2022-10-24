@@ -1,0 +1,27 @@
+.bannersHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.headName{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.controlButtons{
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 480px){
+    .bannersHead{
+        margin-left: 20px;
+    }
+}

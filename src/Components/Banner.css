@@ -1,0 +1,74 @@
+.banner{
+    width: 550px;
+    flex: 0 0 auto;        
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.banner:hover{
+    cursor: pointer;
+}
+
+.banner-images{
+    width: 100%;
+    border-radius: 9px;
+    height: 100%;
+}
+
+.banner-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    overflow-x: auto;
+    margin-left: 80px;
+}
+
+.banner-list::-webkit-scrollbar {
+    display: none;
+}
+
+.show{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.show:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.collection{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.details{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 45%;
+}
+
+@media screen and (max-width: 480px){
+    .banner-list{
+        margin-left: 20px;
+    }
+}

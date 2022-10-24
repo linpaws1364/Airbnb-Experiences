@@ -1,0 +1,38 @@
+.cardsHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.cardheadName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.showAll{
+    text-decoration: underline;
+}
+
+.showAll:hover{
+    cursor: pointer;
+}
+
+.headName, .showAll{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.controlButtons{
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 480px){
+    .cardsHead{
+        margin-left: 20px;
+    }
+}
