@@ -8,7 +8,7 @@ HTML, CSS, JavaScript, ReactJs
 
 # Screenshot
 
-![React App](https://user-images.githubusercontent.com/101203567/197505981-9f145c01-1a94-4cf5-9aca-d99a29edabd9.png)
+![React App](https://user-images.githubusercontent.com/101203567/197510405-7128e7cd-5790-42ca-85a4-5f3b7ae59926.png)
 
 
 # Getting Started with Create React App
