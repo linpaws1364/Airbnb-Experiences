@@ -1,3 +1,16 @@
+# Airbnb Exeperiences Page Clone
+
+Welcome to the project , please use following link to access the live project - https://linpaws1364.github.io/Airbnb-Experiences/
+
+# Tech-stack
+
+HTML, CSS, JavaScript, ReactJs
+
+# Screenshot
+
+![React App](https://user-images.githubusercontent.com/101203567/197505981-9f145c01-1a94-4cf5-9aca-d99a29edabd9.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
